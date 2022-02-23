@@ -9,6 +9,8 @@ header { /*Cor da barra do cabeçario, que está atrás da foto*/
     position: relative; /*inseriu o menu dentro da caixa */
     width: 940px;
     margin: 0 auto; /* Comando para auto calcular o tamanho do menu e centralizar na tela */
+   
+
 }
 
 nav { /*Menu de navega*/
@@ -16,7 +18,8 @@ nav { /*Menu de navega*/
     position: absolute;
     top: 110px;
     right: 0;
-
+   
+     
 }
 .fotomenu{ /*Foto do menu de opção */
 
@@ -32,20 +35,22 @@ nav { /*Menu de navega*/
 
     width: 254px;
     
+    
 }
 
 nav li { /*menu de opções*/
     display: inline;
     margin: 0 0 0 18px; /*comando para o espaçamento entre as palavras*/
-   
+    
 }
 
 nav a{ /*Cor e fonte do menu de opções*/
     text-transform: uppercase;
-    color: #f7f2f2;
+    color: #f8f6f6;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    
 }
 
 .Produtos li:hover { /*Efeito que troca a cor da borda do quadro*/
@@ -53,6 +58,7 @@ nav a{ /*Cor e fonte do menu de opções*/
 }
 
 .Produtos li{ /*Efeito de caixa*/ 
+    
     display: inline-block; /*Mantem os quadros um do lado do outro */
     text-align: center ;/* mantem o texto dentro do quadro centralizado*/
     width: 30%; /*Controla o tamanho da caixa*/
@@ -62,18 +68,18 @@ nav a{ /*Cor e fonte do menu de opções*/
     box-sizing: border-box; /*nao entendi como funciona*/
     border: 2px solid #000000;/*  cor da borda  */
     border-radius: 20px; /*Comando para arrendondar a borda da caixa*/
+    text-decoration: none;
+    
+    
 }
+
 .Produtos{ 
            /*Codigo para controlar o cabeçario texto dentro da caixa */
         width: 940px;
         margin: 0 auto;
         padding: 50px 0;
-    
-}
-
-.Produto-descrição { /*Descrição que está em baixa do foto dentro da caixa*/
-
-    font-size: 14px;
+        
+        
 }
 
 footer { /* Configurações do rodapé para centralizar*/
@@ -141,6 +147,18 @@ form label {
 }
 
 
-/*  TELA DE FOTOS  */
 
+/*video*/
+.videos{
+    
+    width: 500px;
+    margin: 1em auto;
+    
+    
+
+}
+
+
+
+/*  TELA DE FOTOS  */
 
